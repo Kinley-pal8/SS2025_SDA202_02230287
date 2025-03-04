@@ -9,13 +9,13 @@ This project involves creating three diagrams to illustrate the architecture and
 
 ## Documents Included
 
-1. **IoD - Plagiarism Detection System.pdf**  
+1. **IoD**  
    - Contains the IoD diagram, which outlines the workflow for assignment submission, evaluation, and the integration of manual and automated code review processes.
 
-2. **Plagiarism Detection - Combined IoD & UCD (Final).pdf**  
+2. **Assignment  Grading System - Combined IoD & UCD (Final).pdf**  
    - Provides a unified view of the IoD and UCD diagrams. It details the flow of assignment submission, automated testing, plagiarism scanning (e.g., using tools like Turnitin), and the generation of grades and reports.
 
-3. **UCD - Plagiarism Detection System.pdf**  
+3. **UCD - Programming Assignment/Grading System.pdf**  
    - Includes the UCD (Use Case Diagram) for the programming assignment system. This diagram highlights the roles of students, instructors, and the Learning Management System (LMS) in managing assignments, conducting plagiarism checks, and synchronizing grades.
 
 ---
