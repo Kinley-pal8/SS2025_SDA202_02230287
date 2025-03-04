@@ -1,6 +1,4 @@
-Certainly! Here's a modified version of the content to ensure it is unique while retaining the core information:
 
-```markdown
 # Plagiarism Detection System (IoD & UCD)
 
 ## Overview
@@ -75,9 +73,6 @@ The combined diagram integrates the IoD and UCD to offer a comprehensive overvie
 ## Reflection
 
 Creating these diagrams provided valuable insights into the structure and functionality of the plagiarism detection system. The IoD emphasized the flow of data and processes, while the UCD focused on the interactions between users and the system. Combining both diagrams offered a complete picture of how user inputs are transformed into meaningful outputs, ensuring efficiency and transparency in the grading process. This exercise highlighted the importance of integrating tools like Turnitin and LMS systems to uphold academic integrity and streamline workflows.
-```
-
-This version maintains the original meaning but uses different phrasing and structure to ensure it is distinct from your friend's content.
 
 
 This is my link for the diagrams created in lucide chart:
