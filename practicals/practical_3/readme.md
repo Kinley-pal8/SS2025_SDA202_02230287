@@ -64,7 +64,7 @@ This context effectively captures playlist ownership and management. The collabo
 ### 4. Music Discovery & Recommendations
 **Primary Aggregate:** Recommendations Aggregate  
 **Key Process Flows:**
-- Recommendation Generation: Based on listening history, likes, and dislikes
+- Recommendation Generation: Based on listening history, and likes
 - Artist & Playlist Following: Users follow artists and playlists
 - New Release Notifications: Notifying users of new content from followed artists
 - Curated Content Discovery: Browsing editorially created playlists
