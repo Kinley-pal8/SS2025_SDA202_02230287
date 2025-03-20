@@ -106,4 +106,4 @@ This context properly models the monetization aspects of the service with both s
 
 
 ## Conclusion
-The event storming exercise has revealed a comprehensive domain model for the music streaming service. The identified bounded contexts align well with business capabilities, and the aggregate boundaries appear appropriately defined. The model effectively captures both the core user experience and monetization aspects of the service.  
+The event storming exercise has revealed a comprehensive domain model for the Spotify. The identified bounded contexts align well with business capabilities, and the aggregate boundaries appear appropriately defined. The model effectively captures both the core user experience and monetization aspects of the service.  
