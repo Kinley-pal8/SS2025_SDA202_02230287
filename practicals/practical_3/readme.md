@@ -1,7 +1,7 @@
 # Event Storming Analysis Report: Spotify
 To view the image clearly: https://miro.com/app/board/uXjVIODBY7Q=/?share_link_id=421915853126
 ## Executive Summary
-This report analyzes the event storming results for Spotify application. The diagram reveals a domain model organized into five primary bounded contexts: User Management, Music Discovery & Search, Playlist Management, Music Recommendation, and Subscription & Billing. The model follows domain-driven design principles with clearly identified aggregates, domain events, commands, and integration points with external systems. 
+This report analyzes the event storming results for a music streaming service application(Spotify). The diagram reveals a domain model organized into five primary bounded contexts: User Onboarding & Authentication, Music Playback & Interaction, Playlist Management, Music Discovery & Recommendations, and Subscription & Billing. The model follows domain-driven design principles with clearly identified aggregates, domain events, commands, and integration points with external systems. Several potential risk areas have been identified for further exploration.
 
 ## Bounded Contexts and Process Flows
 
@@ -22,11 +22,11 @@ The user management context handles the core user identity lifecycle from regist
 
 ---
 
-### 2. Music Playback and Interaction
+### 2. Music Playback & Interaction
 **Primary Aggregate:** Song Aggregate  
 **Key Process Flows:**
 - Song Search & Playback: Users search, play, pause, resume and skip songs
-- Song Interaction: Users like, dislike, and skip songs
+- Song Interaction: Users like and skip songs
 - Queue Management: Users add and remove songs from playback queue
 - Playback Control: Volume adjustment and lyrics display
 
@@ -61,7 +61,7 @@ This context effectively captures playlist ownership and management. The collabo
 
 ---
 
-### 4. Music Discovery and Recommendation
+### 4. Music Discovery & Recommendations
 **Primary Aggregate:** Recommendations Aggregate  
 **Key Process Flows:**
 - Recommendation Generation: Based on listening history, likes, and dislikes
@@ -106,4 +106,4 @@ This context properly models the monetization aspects of the service with both s
 
 
 ## Conclusion
-The event storming exercise has revealed a comprehensive domain model for the Spotify. The identified bounded contexts align well with business capabilities, and the aggregate boundaries appear appropriately defined. The model effectively captures both the core user experience and monetization aspects of the service.  
+The event storming exercise has revealed a comprehensive domain model for the music streaming service. The identified bounded contexts align well with business capabilities, and the aggregate boundaries appear appropriately defined. The model effectively captures both the core user experience and monetization aspects of the service.  
