@@ -1,4 +1,4 @@
-# Event Storming Analysis Report: Music Streaming Service
+# Event Storming Analysis Report: Druk Beats
 To view the image clearly: https://miro.com/app/board/uXjVIODBY7Q=/?share_link_id=421915853126
 ## Executive Summary
 This report analyzes the event storming results for a music streaming service application. The diagram reveals a domain model organized into five primary bounded contexts: User Management, Music Discovery & Search, Playlist Management, Music Recommendation, and Subscription & Billing. The model follows domain-driven design principles with clearly identified aggregates, domain events, commands, and integration points with external systems. Several potential risk areas have been identified for further exploration.
