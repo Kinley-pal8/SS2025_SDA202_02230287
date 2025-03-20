@@ -1,7 +1,7 @@
-# Event Storming Analysis Report: Druk Beats
+# Event Storming Analysis Report: Spotify
 To view the image clearly: https://miro.com/app/board/uXjVIODBY7Q=/?share_link_id=421915853126
 ## Executive Summary
-This report analyzes the event storming results for a music streaming service application. The diagram reveals a domain model organized into five primary bounded contexts: User Management, Music Discovery & Search, Playlist Management, Music Recommendation, and Subscription & Billing. The model follows domain-driven design principles with clearly identified aggregates, domain events, commands, and integration points with external systems. Several potential risk areas have been identified for further exploration.
+This report analyzes the event storming results for Spotify application. The diagram reveals a domain model organized into five primary bounded contexts: User Management, Music Discovery & Search, Playlist Management, Music Recommendation, and Subscription & Billing. The model follows domain-driven design principles with clearly identified aggregates, domain events, commands, and integration points with external systems. 
 
 ## Bounded Contexts and Process Flows
 
@@ -22,7 +22,7 @@ The user management context handles the core user identity lifecycle from regist
 
 ---
 
-### 2. Music Discovery & Search
+### 2. Music Playback and Interaction
 **Primary Aggregate:** Song Aggregate  
 **Key Process Flows:**
 - Song Search & Playback: Users search, play, pause, resume and skip songs
@@ -61,7 +61,7 @@ This context effectively captures playlist ownership and management. The collabo
 
 ---
 
-### 4. Music Recommendation
+### 4. Music Discovery and Recommendation
 **Primary Aggregate:** Recommendations Aggregate  
 **Key Process Flows:**
 - Recommendation Generation: Based on listening history, likes, and dislikes
