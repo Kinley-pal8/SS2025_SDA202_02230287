@@ -16790,9 +16790,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 32.72998046875,
+											"left": 30.55908203125,
 											"top": 13,
-											"width": 114.9052734375,
+											"width": 101.791015625,
 											"height": 13,
 											"text": "SequenceDiagram1"
 										},
@@ -16806,7 +16806,7 @@
 											"parentStyle": true,
 											"left": 13,
 											"top": 13,
-											"width": 13.72998046875,
+											"width": 11.55908203125,
 											"height": 13,
 											"text": "sd"
 										}
@@ -21280,6 +21280,20 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGXRoxAPx2o+/U="
 							}
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGXSlb+8Q/zyms=",
+							"_parent": {
+								"$ref": "AAAAAAGXRmG1zK0X3tg="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 936,
+							"top": 72,
+							"width": 873,
+							"height": 79,
+							"text": "Draw a Class Diagram - showing only methods and relations\n"
 						}
 					]
 				},
@@ -26175,17 +26189,6 @@
 								},
 								{
 									"_type": "FreelineEdgeView",
-									"_id": "AAAAAAGXRwcQzF1E4QI=",
-									"_parent": {
-										"$ref": "AAAAAAGXRrrEGFXYJac="
-									},
-									"font": "Arial;13;0",
-									"parentStyle": false,
-									"lineStyle": 1,
-									"points": "1208:552;1208:581"
-								},
-								{
-									"_type": "FreelineEdgeView",
 									"_id": "AAAAAAGXRwc8FF1Iuu8=",
 									"_parent": {
 										"$ref": "AAAAAAGXRrrEGFXYJac="
@@ -26303,6 +26306,20 @@
 									"width": 100,
 									"height": 25,
 									"text": "Not Found"
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGXSleqHB88vho=",
+									"_parent": {
+										"$ref": "AAAAAAGXRrrEGFXYJac="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 1000,
+									"top": 56,
+									"width": 200,
+									"height": 600,
+									"text": "Basic Flow\n1. Desk Officer enters car plate no\n2. System validates format of data.\n3. System retrieves the car.\n4. System displays car details.\n5. Desk Officer modifies the details displayed on the screen.\n6. System updates the car record with the latest details.\n7. System displays successful message.\n\nAlternate Flow\n *Car Not Found\no At step 3 of Basic Flow\n System displays an error message.\n"
 								}
 							]
 						}
@@ -26713,7 +26730,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role1"
+					"name": "Role1",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -26721,7 +26739,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role2"
+					"name": "Role2",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -26729,7 +26748,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role3"
+					"name": "Role3",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -26737,7 +26757,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role4"
+					"name": "Role4",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -26745,7 +26766,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role5"
+					"name": "Role5",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -26753,7 +26775,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role6"
+					"name": "Role6",
+					"type": ""
 				},
 				{
 					"_type": "UMLAttribute",
@@ -26788,7 +26811,8 @@
 					"_parent": {
 						"$ref": "AAAAAAGXRrrEGFXWuKQ="
 					},
-					"name": "Role10"
+					"name": "Role10",
+					"type": ""
 				}
 			]
 		}
