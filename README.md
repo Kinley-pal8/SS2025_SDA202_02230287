@@ -9,7 +9,7 @@
 - **Academic Year**: 2024-2025
 
 ### Repository Overview
-This repository contains all practical work, assignments, and projects completed for the Software Development and Applications (SDA202) module. The practicals cover fundamental programming concepts, software development methodologies, and application development techniques.
+This repository contains all practical work, assignments, and projects completed for the SWE201 module.
 
 ### Repository Structure
 ```
