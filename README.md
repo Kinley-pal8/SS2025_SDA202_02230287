@@ -1,6 +1,6 @@
 # SS2025_SDA202_02230287
 
-## Software Development and Applications (SDA202) - Practical Repository
+## System Design & Solution Architecture (SDA202) - Practical Repository
 
 ### Module Information
 - **Module Code**: SDA202
